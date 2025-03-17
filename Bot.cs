@@ -41,7 +41,7 @@ namespace Tricherie
         public Bot()
         {
             // ConnectionCredentials credentials = new ConnectionCredentials(Properties.Resources.username, Properties.Resources.token);
-            ConnectionCredentials credentials = new ConnectionCredentials("tir_a_mitsu", "oauth:sl2yfd9i9vrcxdolly4upao3n4vzzn");
+            ConnectionCredentials credentials = new ConnectionCredentials("tir_a_mitsu", "oauth:********");
             var clientOptions = new ClientOptions
             {
                 MessagesAllowedInPeriod = 750,
